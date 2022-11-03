@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+body {
+  margin: 0;
+}
+
+.site-header {
+  background-color: #fff;
+}
+
+.container {
+  width: 1130px;
+  padding: 15px 15px;
+  margin: 0 auto;
+}
+
+.site-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-links {
+  font-family: "PublicSans";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.107692px;
+  color: #9597a5;
+}
+
+.navbar-links:hover {
+  color: #000;
+}
+
+.site-header-btn {
+  padding: 15px 34px;
+  background-image: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  border-radius: 22px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.site-main {
+  background-color: #f8f8f8;
+  background-image: url("../images/Group\ 37.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - -264px);
+}
+
+.background-title {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2d314d;
+}
+
+.background-desc {
+  font-family: "PublicSans";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597a5;
+  margin-bottom: 36px;
+}
+
+.site-main-btn {
+  padding: 15px 34px;
+  background-image: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  border-radius: 22px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.main-wrapper {
+  width: 447px;
+  padding-bottom: 170px;
+}
+
+.easybank-section {
+  background-color: #f4f5f7;
+  padding: 96px 165px;
+}
+
+.easybank-section-title {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2d314d;
+}
+.easybank-section-desc {
+  font-family: "PublicSans";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597a5;
+  width: 635px;
+}
+.easybank-section-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+}
+.easybank-section-item {
+  width: 255px;
+}
+.easybank-section-subtitle {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: #2d314d;
+}
+
+.easybank-section-item:nth-child(1):before {
+  display: block;
+  width: 13px;
+  height: 24px;
+  padding: 27px 37px;
+  border-radius: 50%;
+  background-color: #79bea2;
+  background-repeat: no-repeat;
+  content: "";
+  background-position: 23px 24px;
+  background-image: url("../images/img1.png");
+}
+
+.easybank-section-item:nth-child(2):before {
+  display: block;
+  width: 13px;
+  height: 24px;
+  padding: 27px 37px;
+  border-radius: 50%;
+  background-color: #79bea2;
+  background-repeat: no-repeat;
+  content: "";
+  background-position: 30px 24px;
+  background-image: url("../images/Combined\ Shape-1.png");
+}
+
+.easybank-section-item:nth-child(3):before {
+  display: block;
+  width: 13px;
+  height: 24px;
+  padding: 27px 37px;
+  border-radius: 50%;
+  background-color: #79bea2;
+  background-repeat: no-repeat;
+  content: "";
+  background-position: 23px 24px;
+  background-image: url("../images/Combined\ Shape\ \(5\).png");
+}
+
+.easybank-section-item:nth-child(4):before {
+  display: block;
+  width: 13px;
+  height: 24px;
+  padding: 27px 37px;
+  border-radius: 50%;
+  background-color: #79bea2;
+  background-repeat: no-repeat;
+  content: "";
+  background-position: 23px 20px;
+  background-image: url("../images/Combined\ Shape.png");
+}
+.easybank-section-subdesc {
+  font-family: "PublicSans";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #9597a5;
+}
+
+.site-article {
+  background-color: #f2f2f2;
+  padding: 80px 30px;
+}
+.site-article-title {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2d314d;
+}
+.site-article-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 54px;
+}
+.site-article-list {
+  padding: 0;
+  width: 255px;
+  background-color: #fff;
+}
+
+.site-article-subtitle {
+  font-family: "PublicSans";
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: -0.15625px;
+  color: #9597a5;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+.site-article-desc {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.285714px;
+  color: #2d314d;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+.site-article-subdesc {
+  font-family: "PublicSans";
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.203125px;
+  color: #9597a5;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+
+.site-footer {
+  background-color: rgba(45, 49, 77, 1);
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.site-footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper-start {
+  display: flex;
+  align-items: center;
+  gap: 131px;
+}
+
+.social {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.site-footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.site-footer-nav-items {
+  width: 140px;
+  font-family: "PublicSans";
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.site-footer-btn {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 13px 34px;
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  border-radius: 22px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.link {
+  font-family: "PublicSans";
+  font-size: 15px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: -0.234375px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
